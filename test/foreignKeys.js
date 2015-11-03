@@ -1,4 +1,4 @@
-var ForeignKeys = require('../lib/waterline-schema/foreignKeys'),
+var ForeignKeys = require('../lib/offshore-schema/foreignKeys'),
     assert = require('assert');
 
 describe('ForeignKeys', function() {

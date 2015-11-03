@@ -1,10 +1,7 @@
-Waterline Schema
+Offshore Schema
 ====================
-[![Build Status](https://travis-ci.org/balderdashy/waterline-schema.svg?branch=master)](https://travis-ci.org/balderdashy/waterline-schema)
-[![npm version](https://badge.fury.io/js/waterline-schema.svg)](http://badge.fury.io/js/waterline-schema)
-[![Dependency Status](https://david-dm.org/balderdashy/waterline-schema.svg)](https://david-dm.org/balderdashy/waterline-schema)
 
-This is the core schema builder used in the Waterline ORM. It is responsible for taking an
+This is the core schema builder used in the Offshore ORM. It is responsible for taking an
 attributes object from a Collection and turning it into a fully fledged schema object.
 
 It's mainly tasked with figuring out and expanding associations between Collections.
@@ -154,5 +151,5 @@ attributes: {
 
 ## Contributing
 
-Before submitting a pull request, please make sure the `waterline-schema` tests pass, as well as [the tests](https://github.com/balderdashy/waterline#tests) in `waterline` core (use `npm link`)
+Before submitting a pull request, please make sure the `offshore-schema` tests pass, as well as [the tests](https://github.com/Atlantis-Software/offshore) in `offshore` core (use `npm link`)
 

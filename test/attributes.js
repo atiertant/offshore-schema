@@ -1,4 +1,4 @@
-var Attributes = require('../lib/waterline-schema/attributes'),
+var Attributes = require('../lib/offshore-schema/attributes'),
     assert = require('assert');
 
 describe('Attributes', function() {

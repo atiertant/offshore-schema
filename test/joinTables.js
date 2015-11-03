@@ -1,4 +1,4 @@
-var JoinTables = require('../lib/waterline-schema/joinTables'),
+var JoinTables = require('../lib/offshore-schema/joinTables'),
     assert = require('assert');
 
 describe('JoinTables', function() {

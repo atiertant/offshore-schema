@@ -1,4 +1,4 @@
-var References = require('../lib/waterline-schema/references'),
+var References = require('../lib/offshore-schema/references'),
     assert = require('assert');
 
 describe('Has Many Through', function() {
