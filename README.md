@@ -8,7 +8,7 @@ It's mainly tasked with figuring out and expanding associations between Collecti
 
 ## Schema Format
 
-A Waterline schema is a javascript object that maps to a generalized database schema format.
+A Offshore schema is a javascript object that maps to a generalized database schema format.
 An adapter should be able to take it and build out a schema definition including join tables in
 a relational database.
 
@@ -42,7 +42,7 @@ attributes: {
 Has many relationships are defined by adding a property to a collection's attributes with a
 `collection` property that points to another collection. This isn't used for the actual database
 structure in a relational system but could be helpful in a nosql database. It is also used
-internally inside of Waterline. A `via` key is required to point to a foriegn key.
+internally inside of Offshore. A `via` key is required to point to a foriegn key.
 
 ```javascript
 attributes: {

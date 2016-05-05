@@ -1,7 +1,7 @@
 {
   "name": "offshore-schema",
   "description": "The core schema builder used in the offshore ORM.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "contributors": [
     {
       "name": "Alexandre Tiertant",
